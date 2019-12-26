@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
+  
   int nomer;
         cout << "Ведите номер задания : ";
         cin >> nomer;
@@ -37,7 +37,7 @@ int main(int argc, const char * argv[]) {
             }
             else
             {
-                cout << "не соответствие условию " << endl;
+                cout << "не соответствие усл " << endl;
             }
         }
         break;
@@ -52,7 +52,7 @@ int main(int argc, const char * argv[]) {
             }
             else
             {
-                cout << "не соответствие условию " << endl;
+                cout << "не соответствие усл " << endl;
             }
         }
         break;
@@ -62,7 +62,7 @@ int main(int argc, const char * argv[]) {
             cout << "Ведите a,b,c : ";
             cin >> a >> b >> c;
             N = (a / c)*(b / c);
-            cout << " количество квадратов, размещенных на прямоугольнике, : " << N << endl;
+            cout << " количество квадратов на прямоугольнике, : " << N << endl;
             cout << " площадь незанятой части прямоугольника  : " << (a * b) - (N * c * c) << endl;
         }
         break;
