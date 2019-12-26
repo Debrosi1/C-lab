@@ -9,9 +9,9 @@
 #include <iostream>
 using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
+   
     int nomer;
-        cout << "Ведите номер задания : ";
+        cout << "Ведите номер  : ";
         cin >> nomer;
 
         switch (nomer)
