@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
+   
     int nomer;
         cout << "Введите номер задания ";
         cin >> nomer;
@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
         case 1:
         {
             int a, b;
-            cin >> a >> b;
+            cin >> a >> b;//dusss
             if (a > b)
             {
                 b = a;
