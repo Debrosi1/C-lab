@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
+   
   int zad;
         cout << "Ведите номер задания : ";
         cin >> zad;
